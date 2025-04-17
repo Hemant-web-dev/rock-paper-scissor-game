@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #A9DEF9;
+}
+.heading{
+    text-align: center;
+    margin: 5vmin 0 ;
+    color: #331544;
+    
+}
+.container{
+    height: 40vh;
+    margin-top: 3vmin;
+    /* background-color: rgb(165, 165, 246); */
+     /* display: flex;  */
+    /* justify-content: center;
+    align-items: center; */
+}
+.blocks{
+height: 15vmin;
+/* background-color: rgb(35, 186, 186); */
+display: flex;
+align-items: center;
+justify-content: center;
+justify-content: space-evenly;
+}
+#box{
+    height: 15vmin;
+    width: 15vmin;
+    border-radius: 50%;
+    border: none;
+
+}
+.box:hover{
+    border: 4px solid #EDE7B1;
+}
+.rock{
+ background-image: url(rock1.jpg);
+background-size: cover;
+box-shadow: 0 0 0 16 rgba(0, 0, 0, 1.5);
+
+}
+
+.paper{
+    background-image: url(paper.jpg);
+    background-size: cover;  
+}
+.scissor{
+    background-image: url(sci.jpg);
+    background-size: cover;
+}
+.blackinfo{
+    margin-top: 3vmin;
+    height: 5vmin;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    gap: 2.5rem;
+    
+}
+.info{
+    margin-top: 7vmin;
+    height: 7vmin;
+    /* background-color: lightcoral; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #D3F8E2;
+}
+.newgame{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+    height: 5vmin;
+    width: 19vmin;
+    border-radius: 2rem;
+    border: none;
+    background-color: #F694C1;
+}
+.newgamediv{
+    margin: 10vmin;
+    display: flex;
+    justify-content: center;
+    
+}
+.resetgame{
+    height: 3vmin;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+}
+.reset{
+    margin-top: 3vmin;
+    margin-bottom: 7vmin;
+    text-align: center;
+    height: 5vmin;
+    width: 19vmin;
+    font-weight: 600;
+    font-size: 1rem;
+    border-radius: 2rem;
+    border: none;
+    background-color: #EDE7B1;
+}
+.msgdiv{
+    background-color: #331544;
+   
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+   
+    
+}
+.msg{
+    font-size: 2rem;
+    color: #EF767A;
+}
+.info1{
+    height: 7vmin;
+    /* background-color: lightcoral; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #D3F8E2;
+}
