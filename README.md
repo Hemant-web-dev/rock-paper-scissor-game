@@ -8,3 +8,4 @@ Features:
 1.You play with the computer 
 2.Win count for both computer and you
 3.Result indication when a match is over
+4.Reset the scores 
