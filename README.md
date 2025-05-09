@@ -4,3 +4,5 @@ Name html file as index.html
 Css file as style.css
 Java Script file as app.js
 Choose the images as per you see fit 
+Features:
+1.You play with the computer 
