@@ -6,3 +6,4 @@ Java Script file as app.js
 Choose the images as per you see fit 
 Features:
 1.You play with the computer 
+2.Win count for both computer and you
